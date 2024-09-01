@@ -1,5 +1,7 @@
 # Stateful retrier
 
+Implementation of transactional outbox pattern in Go.
+
 ## Purpose
 
 This is a simple implementation of a stateful retrier. The stateful retrier is like durable functions. It retries the operation until it succeeds. It uses Postgres to store the state of the operation.
